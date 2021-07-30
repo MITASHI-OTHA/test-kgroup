@@ -63,7 +63,7 @@ const App = () => {
     }
     setToggleItem([key])
   }
-  const MyDivider = ()=> <Divider className="my-0"/>
+  const MyDivider = ()=>  <Divider className="my-0"/>
 
   const Logout = ()=> (
               <div className="logout d-flex justify-content-center align-items-center p-3 cursor-pointer">
