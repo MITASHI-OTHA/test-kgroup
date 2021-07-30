@@ -1,0 +1,113 @@
+.image-fluid {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  .w-140 {
+    width: 140px;
+  }
+  
+  .bg-yellow {
+    background-color: rgba(238, 238, 27, 0.911)
+  }
+  .bg-yellow-2 {
+    background-color: rgba(199, 199, 8, 0.911)
+  }
+  .border-7 {
+    border-radius: 7px;
+  }
+  .bg-gray {
+    background-color: rgba(185, 185, 185, 0.671)
+  }
+  .bg-green {
+    background-color: rgb(30, 255, 255);
+  }
+  
+  .bg-green-2 {
+    background-color: rgb(12, 223, 223);
+  }
+  .b-bottom-gutter {
+    border-bottom: 3px solid #fff;
+    margin: 0 !important;
+  }
+  .b-top-gutter {
+    border-top: 3px solid #fff;
+    margin: 0 !important;
+  }
+  .ant-menu::after {
+    display: block !important;
+    clear: both;
+    content: '';
+  }
+  
+  .bg-blue {
+    background-color: rgb(0, 162, 211);
+  }
+  
+  .bg-orange {
+    background-color: orangered;
+  }
+  .bg-violet {
+    background-color: #2073b9;
+  }
+  .right-bar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: rgb(71 0 211)
+  }
+  .m-badge {
+    top: -7px;
+    right: 6px;
+  }
+  .bg-green-transit {
+    background-color: rgba(185, 185, 185, 0.671)
+  }
+  .ant-menu-submenu-selected .ant-menu-item-selected.ant-menu-item-only-child.ant-menu-item .bg-green-transit, .ant-menu-submenu-title[aria-expanded=true] .bg-green-transit {
+    background-color: rgb(12, 223, 223) !important
+  }
+  .ant-menu-submenu-selected .ant-menu-item-selected.ant-menu-item-only-child.ant-menu-item .bg-yellow-transit {
+    background-color: rgba(199, 199, 8, 0.911) !important
+  }
+  .logout {
+    position: sticky;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    border-top: rgba(240, 240, 240, 0.699) 1px solid;
+    background-color: rgb(248, 248, 248);
+  }
+  html, body {
+    height: 100%;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .dashboard .ant-menu-submenu-arrow {
+      display: none;
+  }
+  .circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+    top: 15px;
+    right: -12px;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  .circle span[role=img] {
+      font-size: 7px;
+  }
+  
+  .item-bar-right:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 92);
+  }
+  .cursor-pointer:hover {
+    cursor: pointer;
+  }
